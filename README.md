@@ -1,4 +1,4 @@
-# Notion Clone - Todo App with Trash
+<img width="1920" height="960" alt="image" src="https://github.com/user-attachments/assets/fe402e02-8d98-45a5-a7e7-09b1cb11e8fb" /># Notion Clone - Todo App with Trash
 
 ## Default Credentials
 
@@ -105,3 +105,13 @@ Set env vars di Vercel dashboard:
 - ✅ Search dan filter
 - ✅ Progress bar sidebar
 - ✅ Notion-like UI, responsive
+
+  ## IMPLEMENTASI WEB
+
+<img width="1918" height="1040" alt="image" src="https://github.com/user-attachments/assets/5caf5475-f4d0-4a0f-bee3-231117fa96bc" />
+<img width="1920" height="1041" alt="image" src="https://github.com/user-attachments/assets/0da45c4a-cb8a-449d-817d-d5f197a502c8" />
+<img width="1920" height="1041" alt="image" src="https://github.com/user-attachments/assets/4a9d738f-235b-48d9-bdd6-5f81683f249a" />
+<img width="1920" height="960" alt="image" src="https://github.com/user-attachments/assets/75c7d56a-3280-4610-a7e7-6f4f096b82d3" />
+
+
+
