@@ -1,7 +1,5 @@
 # Notion Clone - Todo App with Trash
 
-Website mirip Notion dengan JWT authentication, CRUD todo, dan fitur Trash (soft delete).
-
 ## Default Credentials
 
 - **Email:** admin@notion.com  
