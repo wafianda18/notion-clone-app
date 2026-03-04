@@ -1,4 +1,4 @@
-<img width="1920" height="960" alt="image" src="https://github.com/user-attachments/assets/fe402e02-8d98-45a5-a7e7-09b1cb11e8fb" /># Notion Clone - Todo App with Trash
+# Notion Clone - Todo App with Trash
 
 ## Default Credentials
 
