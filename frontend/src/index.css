@@ -1,0 +1,83 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #f7f6f3;
+  --bg-sidebar: #f0ede8;
+  --surface: #ffffff;
+  --surface-hover: #f0ede8;
+  --border: #e8e5e0;
+  --border-light: #f0ede8;
+  --text-primary: #1a1917;
+  --text-secondary: #6b6860;
+  --text-muted: #a09c96;
+  --accent: #c17d3c;
+  --accent-light: #f5efe6;
+  --accent-dark: #9e6230;
+  --danger: #d44638;
+  --danger-light: #fdf0ee;
+  --success: #448361;
+  --success-light: #eef6f2;
+  --priority-high: #d44638;
+  --priority-medium: #c17d3c;
+  --priority-low: #448361;
+  --shadow-sm: 0 1px 3px rgba(26,25,23,0.08);
+  --shadow-md: 0 4px 16px rgba(26,25,23,0.1);
+  --shadow-lg: 0 8px 32px rgba(26,25,23,0.15);
+  --radius: 8px;
+  --radius-lg: 12px;
+  --transition: 0.18s ease;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-display: 'Lora', Georgia, serif;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text-primary);
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  height: 100%;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-12px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes checkmark {
+  0% { stroke-dashoffset: 20; }
+  100% { stroke-dashoffset: 0; }
+}
+
+.fade-in { animation: fadeIn 0.3s ease forwards; }
+.slide-in { animation: slideIn 0.25s ease forwards; }
+.scale-in { animation: scaleIn 0.2s ease forwards; }
+
+button { cursor: pointer; font-family: var(--font-body); }
+input, textarea, select { font-family: var(--font-body); }

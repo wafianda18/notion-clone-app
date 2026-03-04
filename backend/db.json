@@ -1,0 +1,31 @@
+{
+  "user": {
+    "id": "1",
+    "name": "Admin User",
+    "email": "admin@notion.com",
+    "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi"
+  },
+  "todos": [
+    {
+      "id": "e5c0d5c3-b994-40a0-a7dd-c5094e1c04ce",
+      "title": "tes",
+      "description": "tes",
+      "completed": false,
+      "priority": "medium",
+      "dueDate": "2026-03-04",
+      "createdAt": "2026-03-04T07:29:18.680Z",
+      "updatedAt": "2026-03-04T07:30:57.559Z"
+    },
+    {
+      "id": "c14e0ee5-46bf-492e-86fe-81a17f5f933b",
+      "title": "aaa",
+      "description": "sadasd",
+      "completed": false,
+      "priority": "high",
+      "dueDate": "2026-03-04",
+      "createdAt": "2026-03-04T07:22:11.280Z",
+      "updatedAt": "2026-03-04T07:29:49.956Z"
+    }
+  ],
+  "trash": []
+}
